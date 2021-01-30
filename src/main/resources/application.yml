@@ -6,7 +6,7 @@ spring:
     bootstrap-servers: namespace-test.servicebus.windows.net:9093
     client-id: first-service
     properties:
-      sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username="$ConnectionString" password="Endpoint=sb://namespace-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=wB6gt8siBMXqzVK+pio/00Neq7a3lQpu1fW+JlF9G8U=";
+      sasl.jaas.config: org.apache.kafka.common.security.plain.PlainLoginModule required username="$ConnectionString" password="Endpoint=sb://namespace-test.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=";
       sasl.mechanism: PLAIN
       security.protocol: SASL_SSL
       log.retention.minutes: 3
